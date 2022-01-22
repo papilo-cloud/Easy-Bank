@@ -11,7 +11,10 @@
   --gradient : linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
 
-
+@font-face {
+  font-family: myFont;
+  src: url(https://fonts.google.com/specimen/Public+Sans) ;
+}
 *
 {
     box-sizing: border-box;
@@ -43,8 +46,8 @@ body
     /* height: 100%; */
     margin: 0;
     padding: 0;
-    font-family: [Public Sans](https://fonts.google.com/specimen/Public+Sans) ;
-    /* font-family:sans-serif; */
+    /*font-family: [Public Sans](https://fonts.google.com/specimen/Public+Sans) ;*/
+    font-family:myFont;
 }
  .close 
 {
